@@ -7,57 +7,160 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Business Frontpage - Bulma Template</title>
     <link rel="stylesheet" href="bulma-0.7.4/css/bulma.css">
+    <link rel="stylesheet" href="node_modules/bulma-helpers/css/bulma-helpers.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
 </head>
 <body>
-    <section class="hero is-primary is-medium">
-    <div class="hero-head">
-        <nav class="navbar">
+    <header>
+        <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item">
-                        <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                    <a class="navbar-item is-size-5" href="https://bulma.io">Start Bulma</a>
+                    <a role="button" class="navbar-burger burger" data-target="navMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
                     </a>
-                    <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
                 </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
+                <div id="navMenu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a class="navbar-item is-active">
-                            Home
-                        </a>
-                        <a class="navbar-item">
-                            About
-                        </a>
-                        <a class="navbar-item">
-                            Services
-                        </a>
-                        <a class="navbar-item">
-                            Contact
-                        </a>
+                        <a title="Home" class="navbar-item is-active">Home</a>
+                        <a title="Menu" class="navbar-item">Menu</a>
+                        <a title="Services" class="navbar-item">Services</a>
+                        <a title="Contact Us" class="navbar-item">Contact Us</a>
                     </div>
                 </div>
             </div>
         </nav>
-    </div>
+        <section class="hero is-medium is-danger is-bold has-margin-bottom-45 has-margin-top-50-mobile has-margin-bottom-40-mobile">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-size-1">Business Name or Tagline</h1>
+                    <h2 class="subtitle">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Non possimus ab
+                        labore provident mollitia. Id assumenda voluptate
+                        earum corporis facere quibusdam quisquam iste ipsa
+                        cumque unde nisi, totam quas ipsam.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="container has-margin-bottom-45 has-padding-left-40-tablet has-padding-right-40-tablet has-margin-bottom-10-mobile">
+            <div class="columns">
+                <div class="is-three-quarters column has-padding-left-40-mobile has-padding-right-40-mobile has-padding-bottom-25-mobile">
+                    <h2 class="title is-size-3 has-margin-bottom-15">What We Do</h2>
+                    <hr class="dropdown-divider" />
+                    <p class="has-margin-bottom-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        A deserunt neque tempore recusandae animi soluta quasi? Asperiores
+                        rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam.
+                        Repellat explicabo, maiores!</p>
+                    <p class="has-margin-bottom-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio
+                        neque consectetur consequatur magni in nisi, natus beatae quidem quam
+                        odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate.
+                        Voluptatum.</p>
+                    <a class="button is-danger is-left is-medium ">
+                        Call to Action »
+                    </a>
+                </div>
+                <div class="column has-padding-left-40-mobile has-padding-right-40-mobile has-padding-bottom-25-mobile">
+                    <h2 class="title is-size-3 has-margin-bottom-15">Contact Us</h2>
+                    <hr class="dropdown-divider" />
+                    <div class="has-margin-bottom-15">
+                        <p ><strong>Start Bulma</strong></p>
+                        <p>11840 Kalideres</p>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
+                    <div>
+                        <abbr title="Phone">P:</abbr>
+                        (+628) 456-7890
+                        <br>
+                        <abbr title="Email">E:</abbr>
+                        <a href="mailto:#">abie@example.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container has-margin-bottom-45 has-padding-left-40-tablet has-padding-right-40-tablet has-margin-bottom-10-mobile">
+            <div class="columns">
+                <div class="column has-padding-left-40-mobile has-padding-right-40-mobile has-padding-bottom-25-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://placehold.it/300x200" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-height-200">
+                            <div class="content">
+                                <h1 class="title has-margin-bottom-15 is-4">Card title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer has-padding-15 has-padding-left-20">
+                            <a class="button is-danger is-left is-capitalized">
+                                Find Out More!
+                            </a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column has-padding-left-40-mobile has-padding-right-40-mobile has-padding-bottom-25-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://placehold.it/300x200" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-height-200">
+                            <div class="content">
+                                <h1 class="title has-margin-bottom-15 is-4">Card title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Sapiente esse necessitatibus neque sequi doloribus totam
+                                    ut praesentium aut.</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer has-padding-15 has-padding-left-20">
+                            <a class="button is-danger is-left is-capitalized">
+                                Find Out More!
+                            </a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column has-padding-left-40-mobile has-padding-right-40-mobile has-padding-bottom-40-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://placehold.it/300x200" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content has-height-200">
+                            <div class="content">
+                                <h1 class="title has-margin-bottom-15 is-4">Card title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Sapiente esse necessitatibus neque.</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer has-padding-15 has-padding-left-20">
+                            <a class="button is-danger is-left is-capitalized">
+                                Find Out More!
+                            </a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
 
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-        <div class="container has-text-left">
-            <h1 class="title">
-                Business Name or Tagline
-            </h1>
-            <h2 class="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Non possimus ab labore provident mollitia. Id assumenda voluptate earum
-                corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.
-            </h2>
+    </main>
+    <footer class="footer has-background-black-ter has-text-light has-padding-30">
+        <div class="content has-text-centered">
+            <p>
+                Copyright © Your Website 2019
+            </p>
+            <a href="https://bulma.io">
+                <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="128" height="24">
+            </a>
         </div>
-    </div>
-</section>
+    </footer>
+    <script src="navbar.js"></script>
 </body>
 </html>
